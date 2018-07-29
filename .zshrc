@@ -19,8 +19,9 @@ source $ZSH/oh-my-zsh.sh
 # NPM Settings
 
 ## Assumes that you have configured as follows
-
 # mkdir ~/.npm-global
+# npm config set prefix '~/.npm-global'
+
 export PATH=~/.npm-global/bin:$PATH
 
-# Remember to run
+# Remember to run source ~/.zshrc
