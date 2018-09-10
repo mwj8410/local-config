@@ -21,3 +21,14 @@ Retain credentials
 ```
 git config credential.helper store
 ```
+
+## SSH
+Ref to https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+```
+ssh-keygen -t rsa -b 4096 -C "matthew@heath.software"
+ssh-add -K ~/.ssh/id_rsa
+
+# Copies the contents of the id_rsa.pub file to your clipboard`
+pbcopy < ~/.ssh/id_rsa.pub
+```
