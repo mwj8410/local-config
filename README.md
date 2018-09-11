@@ -22,6 +22,15 @@ Retain credentials
 git config credential.helper store
 ```
 
+Globally ignored
+```
+cd ~
+mkdir tools
+touch .gitignore_global
+git config --global core.excludesfile ~/tools/.gitignore_global
+```
+
+
 ## SSH
 Ref to https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
