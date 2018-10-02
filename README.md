@@ -26,6 +26,7 @@ Globally ignored
 ```
 cd ~
 mkdir tools
+cd tools
 touch .gitignore_global
 git config --global core.excludesfile ~/tools/.gitignore_global
 ```
