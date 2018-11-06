@@ -31,6 +31,15 @@ touch .gitignore_global
 git config --global core.excludesfile ~/tools/.gitignore_global
 ```
 
+Correct Paging when showing branches
+```
+git config --global pager.branch false
+```
+
+A better way to view log
+```
+$ git config --global aliasa.lg=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+```
 
 ## SSH
 Ref to https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
