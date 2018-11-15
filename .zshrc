@@ -23,6 +23,11 @@ source $ZSH/oh-my-zsh.sh
 # npm config set prefix '~/.npm-global'
 
 export PATH=~/.npm-global/bin:$PATH
+export NPM_TOKEN=<redacted>
+
+# Go Settings
+export GOPATH=/Users/matthew/go
+export PATH=$GOPATH/bin:$PATH
 
 # Remember to run source ~/.zshrc
 export NVM_DIR="$HOME/.nvm"
