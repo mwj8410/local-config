@@ -1,6 +1,6 @@
 [user]
     name = Matthew W. Jackson
-    email = matthew@heath.software
+    email = <use your own email>
 [core]
     excludesfile = /Users/jackson/tools/.gitignore_global
 [alias]
