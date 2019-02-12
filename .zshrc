@@ -1,6 +1,16 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# if you get an error as follows
+
+# [alfredo@unluckystar:~]$ source .zshrc
+# autoload: command not found
+# -bash: /home/alfredo/.oh-my-zsh/oh-my-zsh.sh: line 31: syntax error near unexpected token `('
+# -bash: /home/alfredo/.oh-my-zsh/oh-my-zsh.sh: line 31: `for config_file ($ZSH/lib/*.zsh); do'
+
+# run
+# chsh -s $(which zsh)
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/matthew/.oh-my-zsh
 
