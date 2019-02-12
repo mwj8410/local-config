@@ -17,9 +17,14 @@ npm config set prefix '~/.npm-global'
 Make sure to add `export PATH=~/.npm-global/bin:$PATH` to your profile configuration (Already in the zshrc in this repofile)
  
 ## Git
-Retain credentials
+Retain credentials for a repo
 ```
 git config credential.helper store
+```
+
+or retain the credentals globally
+```
+git config --global credential.helper osxkeychain
 ```
 
 Globally ignored
