@@ -1,0 +1,26 @@
+# Configuration Created by version 1 of the Environment Setup Script
+
+[user]
+    name = Matthew W. Jackson
+    email = mwj8410@gmail.com
+
+[alias]
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+
+[core]
+    pager = less -XFR
+
+[credential]
+    helper = cache
+
+[pager]
+    branch = false
+
+[push]
+	default = current
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
