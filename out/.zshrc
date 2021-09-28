@@ -16,7 +16,7 @@ source $ZSH/oh-my-zsh.sh
 
 # NPM Settings
 export PATH=~/.npm-global/bin:$PATH
-export NPM_TOKEN=89bf54cd-c9c0-4825-ba98-9bc3e9fb7584
+export NPM_TOKEN=<<NPM TOKEN VALUE>>
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
