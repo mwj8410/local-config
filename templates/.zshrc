@@ -1,5 +1,3 @@
-# Configuration Created by version <ENV_SETUP_VERSION> of the Environment Setup Script
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
